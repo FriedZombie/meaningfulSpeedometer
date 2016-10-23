@@ -1,0 +1,25 @@
+From 607700a61910f39ef5cced28bcc016fb7d2a19a7 Mon Sep 17 00:00:00 2001
+From: Martijn Zilverschoon <martijn@friedzombie.com>
+Date: Sun, 23 Oct 2016 17:30:16 +0200
+Subject: [PATCH] added meaningfulSpeedometer
+
+---
+ drivers/Kconfig | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/drivers/Kconfig b/drivers/Kconfig
+index d2ac339..a95dc3e 100644
+--- a/drivers/Kconfig
++++ b/drivers/Kconfig
+@@ -104,6 +104,8 @@ source "drivers/memstick/Kconfig"
+ 
+ source "drivers/leds/Kconfig"
+ 
++source "drivers/meaningfulSpeedometer/Kconfig"
++
+ source "drivers/accessibility/Kconfig"
+ 
+ source "drivers/infiniband/Kconfig"
+-- 
+2.9.3
+
